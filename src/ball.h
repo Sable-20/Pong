@@ -9,8 +9,8 @@ private:
   sf::Vector2f m_Position;
   sf::RectangleShape m_Shape;
   float m_Speed = 300.0f;
-  float m_DirectionX = .2f;
-  float m_DirectionY = .2f;
+  float m_DirectionX = 1.f;
+  float m_DirectionY = 1.f;
 
 public:
   Ball(float startX, float startY);

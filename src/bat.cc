@@ -2,7 +2,7 @@
 
 Bat::Bat(float startX, float startY) : mPos(startX, startY)
 {
-  mShape.setSize(sf::Vector2f({50, 5}));
+  mShape.setSize(sf::Vector2f({200, 5}));
   mShape.setPosition(mPos);
 }
 

@@ -34,6 +34,11 @@ int main()
       }
     }
 
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
+    {
+      window.close();
+    }
+
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left))
     {
       bat.moveLeft();
